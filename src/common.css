@@ -1,0 +1,27 @@
+/*
+ *@Author: biodancer
+ *@Date:2019-11-19
+ *@Last Modified by: biodancer
+ *@Last Modified time:2019-11-19
+*/
+
+/* x < 340px */
+@media(max-width:340px){
+    html{
+        font-size:18px;
+    }
+}
+
+/* 340px< x <410px */
+@media(min-width:340px) and (max-width:410px){
+    html{
+        font-size:20px;
+    }
+}
+
+/* x > 410px */
+@media(min-width:410px){
+    html{
+        font-size:22px;
+    }
+}

@@ -1,0 +1,15 @@
+/*
+ *@Author: biodancer
+ *@Date:2019-11-19
+ *@Last Modified by: biodancer
+ *@Last Modified time:2019-11-19
+*/
+
+/* import font-awsome */
+@import 'https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+/* 字体整体的样式 */
+.fa {
+    display:inline-block;
+    text-align: center;    
+}
