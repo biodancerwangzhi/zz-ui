@@ -1,0 +1,42 @@
+/*
+ *@Author: biodancer
+ *@Date:2019-11-22
+ *@Last Modified by: biodancer
+ *@Last Modified time:2019-11-22
+*/
+
+/* 头部导航栏 */
+.zz-header {
+    display:flex;
+    position: fixed;
+    box-sizing: border-box;
+    width:100%;
+    max-width: 640px;
+    height:2.3rem;
+    line-height: 2.3rem;
+    text-align: center;
+    top:0;
+    z-index:200;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 左侧功能 */
+.zz-header > .left {
+    flex-basis: 3rem;
+    text-align:center;
+    flex-shrink:0;
+}
+
+/* 中间标题 */
+.zz-header > .title {
+    flex-grow:1;
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}    
+/* 右侧功能 */
+.zz-header > .right {
+    flex-basis: 3rem;
+    text-align:center;
+    flex-shrink:0;
+}

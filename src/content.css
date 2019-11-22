@@ -1,0 +1,20 @@
+/*
+ *@Author: biodancer
+ *@Date:2019-11-22
+ *@Last Modified by: biodancer
+ *@Last Modified time:2019-11-22
+*/
+
+.zz-content{
+    box-sizing:border-box;
+    position: relative;
+    overflow-y:auto;
+}
+
+.zz-header ~ .zz-content{
+    padding-top:2.3rem;
+}
+
+.zz-navbar ~ .zz-content{
+    padding-bottom:2.5rem;
+}

@@ -12,3 +12,8 @@
 
 /* 图标 */
 @import './icon.css';
+
+/* 布局 */
+@import './content.css';
+@import './header.css';
+@import './navbar.css'
