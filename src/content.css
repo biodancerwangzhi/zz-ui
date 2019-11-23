@@ -2,13 +2,33 @@
  *@Author: biodancer
  *@Date:2019-11-22
  *@Last Modified by: biodancer
- *@Last Modified time:2019-11-22
+ *@Last Modified time:2019-11-23
 */
 
 .zz-content{
     box-sizing:border-box;
     position: relative;
     overflow-y:auto;
+}
+.zz-content .zz-panel-title {
+    height:1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color:#aaa;
+    background:#fff;
+    border-top:1px solid #eee;
+    font-size:14px;
+    font-weight: normal;
+}
+
+.zz-content .zz-panel-body {
+    position:relative;
+    margin-bottom:0.6rem;
+    padding:0.6rem 1rem;
+    background:#fff;
+    overflow:hidden;
+    border-top:1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .zz-header ~ .zz-content{

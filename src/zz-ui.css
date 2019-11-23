@@ -16,4 +16,7 @@
 /* 布局 */
 @import './content.css';
 @import './header.css';
-@import './navbar.css'
+@import './navbar.css';
+
+/* 输入框 */
+@import './input.css';
